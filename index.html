@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="gamecursor"><div class="insidedot"></div></div>
+    <div id="top-container">    
+        <div id="name"></div>
+        <div id="score"></div>
+    </div>
+    <div id="name-prompt">
+        <h2>Enter your username</h2>
+        <input type="text" id="username" name="username" required
+            pattern="[A-Za-z0-9]{3,12}">
+        <button id="gamestart">PLAY</button>
+        <p>Requirements</p>
+        <p>Between 3 and 12 characters</p>
+        <p>Only letters and numbers</p>
+    </div>
+
+    <div id="board">
+
+    </div>
+
+    <div id="hs">
+        <h2>You lost!</h2>
+        <p>Best players:</p>
+        <ul id="hs-list">
+        </ul>
+        <button id="gamestart2">PLAY AGAIN!</button>
+    </div>
+
+</body>
+</html>
